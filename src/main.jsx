@@ -3,12 +3,14 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
+import Contact from "./pages/Contact";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>

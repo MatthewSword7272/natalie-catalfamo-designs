@@ -9,7 +9,7 @@ const Header = () => {
         <NavLink to={"/"}>Welcome</NavLink>
         <NavLink to={"/"}>Projects</NavLink>
         <NavLink to={"/"}>About Me</NavLink>
-        <NavLink to={"/"}>Contact</NavLink>
+        <NavLink to={"/contact"}>Contact</NavLink>
         <NavLink to={"/Natalie+Catalfamo+CV.pdf"} target="_blank">
           Resume
         </NavLink>
