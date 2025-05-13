@@ -7,9 +7,13 @@ const MainLayout = ({ children }) => {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="bg-backgroundColor flex-grow mt-[5.5rem]">{children}</main>
+
+      <main className="bg-backgroundColor flex-grow mt-[5.5rem]">
+        {children}
+      </main>
+
       <footer className=" bg-backgroundColor py-8 flex flex-col items-center justify-center gap-3 min-h-48 h-[20vh]">
-        <Link className="text-2xl" to="mailto:natcatalfamo@gmail.com">
+        <Link className="text-xl" to="mailto:natcatalfamo@gmail.com">
           natcatalfamo@gmail.com
         </Link>
         <a
@@ -21,7 +25,11 @@ const MainLayout = ({ children }) => {
         </a>
         <span>
           Website by her brother:{" "}
-          <a className="underline hover:text-blue-400" href="https://matthewcatalfamoportfolio.netlify.app/">
+          <a
+            className="underline hover:text-blue-400"
+            target={"_blank"}
+            href="https://matthewcatalfamoportfolio.netlify.app/"
+          >
             Matthew Catalfamo
           </a>
         </span>

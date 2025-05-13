@@ -63,9 +63,11 @@ const Header = () => {
 
       <div
         id="navMenu"
-        className={`${!mobileMenuOpen ? "hidden" : ""} fixed overscroll-none bg-white inset-0 size-full`}
+        className={`${
+          !mobileMenuOpen ? "hidden" : ""
+        } fixed overscroll-none bg-white inset-0 size-full`}
       >
-        <nav className="flex flex-col items-center justify-center h-full text-5xl gap-y-12">
+        <nav className="flex flex-col items-center justify-center font-normal h-full text-4xl gap-y-10">
           <NavLink to={"/"}>Welcome</NavLink>
           <NavLink to={"/"}>Projects</NavLink>
           <NavLink to={"/about-me"}>About Me</NavLink>
