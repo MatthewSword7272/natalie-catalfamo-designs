@@ -1,0 +1,3 @@
+#buttonLink {
+    @apply border border-black text-black hover:bg-black hover:text-white px-5 text-center duration-300;
+}

@@ -1,0 +1,38 @@
+const projects = [
+  {
+    id: 1,
+    name: "Concept Album Design Rollout",
+    preViewName: "Album Design Rollout",
+    description: `Get ready to dive into the electrifying world of BICEP with the ‘RISING’ album concept! This project focused on crafting a vibrant branding rollout that captures the duo's unique sound and takes listeners on an unforgettable journey. <br/> By exploring their music and album designs across genres, I developed a striking concept that brings their sound waves to life through eye-catching tour posters, trendy merchandise, and sleek vinyl designs, all designed to resonate with fans. ‘RISING’ isn’t just an album; it’s an immersive experience that mirrors the music's ebb and flow, evoking feelings of transcendence and pure joy!`,
+    mainImage: "",
+    otherImages: [],
+    year: 2025,
+  },
+  {
+    id: 2,
+    name: "TREATEEZ: Dog Food Packaging",
+    preViewName: "TREATEEZ",
+    description: `Welcome to a pawsitively exciting project! <br/> The goal was to create a completely sustainable brand identity and packaging design for a business close to my heart—our furry friends! <br/> This 100% dog-friendly and edible packaging design made from potato starch. Yes, you read that right—your pup can munch on it! This packaging is all about saying goodbye to single-use plastics and embracing a zero-waste lifestyle. It can be eaten or composted, making mealtime a fun and eco-friendly experience for both dogs and their humans. <br/> This project encourages dog owners to explore playful alternatives for their pets’ food packaging, proving that sustainability can be just as delightful as a wagging tail! <br/> So let’s treat our pups, and the planet, with love and creativity! `,
+    mainImage: "",
+    otherImages: [],
+    year: 2025,
+  },
+  {
+    id: 3,
+    name: "Concept Album Design Rollout",
+    preViewName: "",
+    description: `Get ready to dive into the electrifying world of BICEP with the ‘RISING’ album concept! This project focused on crafting a vibrant branding rollout that captures the duo's unique sound and takes listeners on an unforgettable journey. <br/> By exploring their music and album designs across genres, I developed a striking concept that brings their sound waves to life through eye-catching tour posters, trendy merchandise, and sleek vinyl designs, all designed to resonate with fans. ‘RISING’ isn’t just an album; it’s an immersive experience that mirrors the music's ebb and flow, evoking feelings of transcendence and pure joy!`,
+    mainImage: "",
+    otherImages: [],
+    year: 2025,
+  },
+  {
+    id: 4,
+    name: "Concept Album Design Rollout",
+    preViewName: "",
+    description: `Get ready to dive into the electrifying world of BICEP with the ‘RISING’ album concept! This project focused on crafting a vibrant branding rollout that captures the duo's unique sound and takes listeners on an unforgettable journey. <br/> By exploring their music and album designs across genres, I developed a striking concept that brings their sound waves to life through eye-catching tour posters, trendy merchandise, and sleek vinyl designs, all designed to resonate with fans. ‘RISING’ isn’t just an album; it’s an immersive experience that mirrors the music's ebb and flow, evoking feelings of transcendence and pure joy!`,
+    mainImage: "",
+    otherImages: [],
+    year: 2025,
+  },
+];
