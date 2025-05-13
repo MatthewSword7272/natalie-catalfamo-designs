@@ -2,12 +2,10 @@ import React from "react";
 
 const TextSvg = () => {
   const text = "Welcome to my World of Design! * ";
+  const longText = text.repeat(4);
+
   return (
-    <svg
-      className="w-full "
-      viewBox="0 0 500 100"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+    <svg className="w-full " viewBox="0 0 500 100" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <path
           id="path"
@@ -27,56 +25,15 @@ const TextSvg = () => {
       </defs>
 
       <text fontSize="16px" fill="#fff">
-        {/* Copy 1 */}
-        <textPath
-          href="#path"
-          startOffset="-97.5%"
-          method="align"
-          spacing="auto"
-        >
-          {text}
+        <textPath href="#path" startOffset="0%">
+          {longText}
           <animate
             attributeName="startOffset"
-            to="-97.5%"
-            from="2.5%"
+            from="0%"
+            to="-100%"
             dur="20s"
             repeatCount="indefinite"
-          />
-        </textPath>
-
-        {/* Copy 2 */}
-        <textPath href="#path" startOffset="-45%" method="align" spacing="auto">
-          {text}
-          <animate
-            attributeName="startOffset"
-            to="-45%"
-            from="55%"
-            dur="20s"
-            repeatCount="indefinite"
-          />
-        </textPath>
-
-        {/* Copy 3 */}
-        <textPath href="#path" startOffset="7.5%" method="align" spacing="auto">
-          {text}
-          <animate
-            attributeName="startOffset"
-            to="7.5%"
-            from="107.5%"
-            dur="20s"
-            repeatCount="indefinite"
-          />
-        </textPath>
-
-        {/* Copy 4 */}
-        <textPath href="#path" startOffset="60%" method="align" spacing="auto">
-          {text}
-          <animate
-            attributeName="startOffset"
-            to="60%"
-            from="160%"
-            dur="20s"
-            repeatCount="indefinite"
+            calcMode="linear"
           />
         </textPath>
       </text>
